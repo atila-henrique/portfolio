@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color:#00E88F;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 23px;
+    color: #837E9F;
+}
+
+h2{
+    font-size: 20px;
+    color: #837E9F;
+}
+
+h3{
+    font-size: 16px;
+    color: #837E9F;
+}
+
+p{
+    color: #837E9F;
+}
+ul{
+    list-style: none;
+}
+
+#app{
+    background-color: #22212C;
+    padding: 40px;  
+}
+
+main{
+    display: flex;
+    gap: 60px;
+}
+
+
+.card{
+    background-color: #302F3D;
+    border-radius: 20px;
+    padding-top: 31px;
+    padding-bottom: 30px;
+}
+
+#lateral{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+#meio{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+#profile{    
+    height: 292px;
+    text-align: center;
+    padding: 30px;
+    background-image: url(../assets/capa.jpeg);
+    background-position: top  ;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+#profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid #00E88F;
+
+}
+
+#profile span{
+    font-size: 13px;
+    display: block;
+    font-weight: 100;
+}
+
+#links{
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 13px;
+    
+}
+
+#links ul {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 86px;    
+}
+
+#links ul img{
+    color: #837E9F;
+
+}
+
+#links ul li{
+    display: flex;
+    gap: 20px;
+    color: #837E9F;
+}
+
+#technologies{
+    padding: 30px 30px 30px 20px;
+}
+
+#technologies ul{
+    padding-top: 20px;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.tag{
+    border-radius: 20px;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    padding: 12px 25px;
+}
+
+#technologies ul li{
+    background-color: #00E88F;
+    
+}
+
+#education{
+    padding: 30px 30px 30px 20px;
+}
+
+#education ul{
+    list-style: disc;
+}
+
+#education ul li{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: #837E9F;
+}
+
+#myProjects h2{
+    margin-left: 30px;
+}
+
+#projetos{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.project{
+    height: 186px;    
+    max-width: 498px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.project h3{
+    margin-bottom: 20px;
+}
+
+.project img{
+    width: 20px;
+    margin-right: 16px;
+}
+
+
+
+
+#myPosts h2 {
+    margin-left: 30px;
+}
+
+.post{
+    background-color: #302F3D;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+
+.post ~ .post{
+    margin-top: 20px;
+}
+
+.post img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    
+}
+
+
+.post h3 span{
+        font-size: 13px;
+        display: block;
+        font-weight: 100;
+        padding-top: 5px;
+        padding-bottom: 26px;   
+}
+
+.post p{
+    padding-bottom: 11px;
+}
+
+.post .tag{
+    color: #837E9F;
+    background-color: #22212cc6;
+    box-shadow: inset 0px 0px 2px 2px #22212cc6;
+}
+
+footer{
+    padding: 12px ;
+    width: 100%;
+    text-align: center;
+    background-color: #302F3D;
+}   
+
+footer p{
+    font-size: 12px;
+
+}
+
+
+
+@media (max-width: 769px){
+    main{
+        flex-direction: column;
+        align-items: center;
+    }    
+}
