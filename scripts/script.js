@@ -50,7 +50,7 @@ createProject("folder.svg","Calendario da Copa","Projeto desenvolvido no evento 
 createProject("folder.svg","Menu Hover","Projeto desenvolvido nos meus estudos sobre css e html. Aqui nos desenvolvemos um menu super legal e interativo usando css hover effects.","https://atila-henrique.github.io/menuHoverProject-/") + 
 
 //PROJETO 3
-createProject("folder.svg","Liquid Login","Projeto desenvolvido nos meus estudos sobre css e UI. Aqui nos desenvolvemos um login com um tema liquid, ficou muito lindo e não utilizamos nenhuma imagem.","https://atila-henrique.github.io/menuHoverProject-/");  
+createProject("folder.svg","Liquid Login","Projeto desenvolvido nos meus estudos sobre css e UI. Aqui nos desenvolvemos um login com um tema liquid, ficou muito lindo e não utilizamos nenhuma imagem.","https://atila-henrique.github.io/liquidLogin/");  
 
 //POST 1
 document.querySelector("#posts").innerHTML = createPost("orientação-objeto.png",
