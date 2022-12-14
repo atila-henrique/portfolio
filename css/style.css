@@ -1,3 +1,10 @@
+:root{
+    --colorBg: #22212C;  
+    --colorBgCard: #302F3D;
+    --colorLink: #00E88F;
+    --colorH1: #837E9F;
+    --colorText: #837E9F;
+}
 *{
     margin: 0;
     padding: 0;
@@ -7,7 +14,7 @@
 
 a{
     text-decoration: none;
-    color:#00E88F;
+    color:var(--colorLink);
 }
 
 a:active{
@@ -16,28 +23,28 @@ a:active{
 
 h1{
     font-size: 23px;
-    color: #837E9F;
+    color: var(--colorH1);
 }
 
 h2{
     font-size: 20px;
-    color: #837E9F;
+    color: var(--colorText);
 }
 
 h3{
     font-size: 16px;
-    color: #837E9F;
+    color: var(--colorText);
 }
 
 p{
-    color: #837E9F;
+    color: var(--colorText);
 }
 ul{
     list-style: none;
 }
 
 #app{
-    background-color: #22212C;
+    background-color: var(--colorBg);
     padding: 40px;  
 }
 
@@ -48,10 +55,10 @@ main{
 
 
 .card{
-    background-color: #302F3D;
+    background-color: var(--colorBgCard);
     border-radius: 20px;
     padding-top: 31px;
-    padding-bottom: 30px;
+    padding-bottom: 30px;    
 }
 
 #lateral{
@@ -167,7 +174,7 @@ main{
 }
 
 .project{
-    height: 186px;    
+    height: fit-content;    
     max-width: 498px;
     background-color: #302F3D;
     border-radius: 20px;

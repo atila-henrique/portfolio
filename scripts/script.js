@@ -44,7 +44,13 @@ function createPost(img,title,data,description,myTag,link){
 
 document.querySelector("#projetos").innerHTML = 
 //PROJETO 1
-createProject("folder.svg","Calendario da Copa","Projeto desenvolvido no evento NLW da <b>Rocketseat</b>. Criamos um layout resposivo baseado em um prototipo no figma, amei a experiência e clique no card para conferir como ficou.","https://atila-henrique.github.io/NLW-copa/");  
+createProject("folder.svg","Calendario da Copa","Projeto desenvolvido no evento NLW da <b>Rocketseat</b>. Criamos um layout resposivo baseado em um prototipo no figma, amei a experiência e clique no card para conferir como ficou.","https://atila-henrique.github.io/NLW-copa/") + 
+
+//PROJETO 2
+createProject("folder.svg","Menu Hover","Projeto desenvolvido nos meus estudos sobre css e html. Aqui nos desenvolvemos um menu super legal e interativo usando css hover effects.","https://atila-henrique.github.io/menuHoverProject-/") + 
+
+//PROJETO 3
+createProject("folder.svg","Liquid Login","Projeto desenvolvido nos meus estudos sobre css e UI. Aqui nos desenvolvemos um login com um tema liquid, ficou muito lindo e não utilizamos nenhuma imagem.","https://atila-henrique.github.io/menuHoverProject-/");  
 
 //POST 1
 document.querySelector("#posts").innerHTML = createPost("orientação-objeto.png",
