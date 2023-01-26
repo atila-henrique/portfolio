@@ -174,7 +174,7 @@ main{
 }
 
 .project{
-    height: fit-content;    
+    min-height: 178px;    
     max-width: 498px;
     background-color: #302F3D;
     border-radius: 20px;
