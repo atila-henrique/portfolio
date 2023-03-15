@@ -52,8 +52,8 @@ createProject("folder.svg","Calculadora Javascript","Projeto desenvolvido nos me
 //PROJETO 2 - Landing Page Pepsi
 createProject("folder.svg","Landing Page Pepsi","Projeto desenvolvido nos meus estudos sobre css e html e javascript. Desenvolvi uma landing page dinâmica, trocando o conteudo de acordo com a latinha que o usuário clica.","https://atila-henrique.github.io/pagePepsi/#") +
 
-//PROJETO 3 - Page Liquid Login
-createProject("folder.svg","Page Liquid Login","Projeto desenvolvido nos meus estudos sobre css e UI. Aqui nos desenvolvemos um login com um tema liquid, ficou muito lindo e não utilizamos nenhuma imagem.","https://atila-henrique.github.io/liquidLogin/") +  
+//PROJETO 3 - 
+createProject("folder.svg","Page Previsão do Tempo","Projeto desenvolvido nos meus estudos sobre Javascrip e API´s. Construi um design simples com um background randômico. Utilizei uma API da OpenWeather para buscar o clima das cidades que for pesquisada pelo usuário.","https://atila-henrique.github.io/clima/") +  
 
 //PROJETO 4 - Calendario da Copa
 createProject("folder.svg","Calendario da Copa","Projeto desenvolvido no evento NLW da <b>Rocketseat</b>. Criamos um layout resposivo baseado em um prototipo no figma, amei a experiência e clique no card para conferir como ficou.","https://atila-henrique.github.io/NLW-copa/");
